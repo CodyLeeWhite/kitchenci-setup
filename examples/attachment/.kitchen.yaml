@@ -1,3 +1,4 @@
+
 driver: 
   name: vagrant
   customize:
@@ -39,4 +40,7 @@ suites:
       - recipe[attachment::ondemand]
     veridier:
       inspec_tests:
-        - test/intefration/javaservicewrapper/serverspec/
+        - test/integration/attachment/serverspec
+# Kitchen yaml is very picky about the file path and name of your serverspec test file
+# The path must match [COOKBOOK]/test/integration/[SUITES]/serverspec/*_spec.rb
+# Globbing pattern to match files is "serverspec/*/*_spec.rb"
