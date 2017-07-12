@@ -2,7 +2,7 @@ KitchenCi Tests
 
 *oneops-admin*
 - [ ] artifact
-- [ ] attachment
+- [√] attachment
 - [ ] log
 - [ ] monitor
 - [ ] security
