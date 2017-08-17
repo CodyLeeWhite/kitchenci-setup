@@ -1,7 +1,0 @@
----
-hostname: 127.0.0.1
-port: '2222'
-username: vagrant
-ssh_key: /Users/c0w0154/playground/oneops_circuits/circuit-oneops-1/components/cookbooks/java/.kitchen/kitchen-vagrant/kitchen-java-java-centos-68/.vagrant/machines/default/virtualbox/private_key
-last_action: converge
-last_error: 
